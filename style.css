@@ -42,21 +42,26 @@ html{
     font-weight: 600;
 }
 
-.elements{
-    display: flex;
-    height: 3rem;
-    padding-top: 5.6px;
-    padding-bottom: 5.6px;
-    margin: 0%;
-    background: 0% 0%  rgb(236, 236, 236);
-    align-items: center;
-    position: relative;
-    justify-content: left;
-    padding-left: 10%;
-    padding-right: 10%;
+.menu-secondary{
+  display: flex;
+  width: 100%;
+  height: 48px;
+  padding: 5.6px 125px;
+  background-color: #ececec;
 }
 
-.elements-social{
+.social-container {
+  width: 240px;
+}
+
+.social__item {
+  width: 20px;
+  background-color: #333333;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.menu-secondary__social{
     justify-content: left;
 }
 
@@ -66,7 +71,7 @@ html{
     text-align: center;
 }
 
-.elements_list{
+.menu-secondary__navigation{
     list-style: none;
     justify-content: center;
     padding: 0px 0.5rem;
@@ -93,7 +98,7 @@ html{
     display: flex;
 }
 
-.elements-register{
+.menu-secondary-register{
     margin-left: auto;
     justify-content: flex-end;
 }
