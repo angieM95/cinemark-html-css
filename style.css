@@ -46,45 +46,41 @@ html{
   display: flex;
   width: 100%;
   height: 48px;
-  padding: 5.6px 125px;
   background-color: #ececec;
+  justify-content: space-between;
 }
 
 .social-container {
-  width: 240px;
+    display: flex;
+    align-items: center;
 }
 
 .social__item {
   width: 20px;
+  height: 20px;
   background-color: #333333;
-  display: inline-block;
   border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.social__item-container {
+  margin-right: 16px;
+}
+
 
 .menu-secondary__social{
     justify-content: left;
 }
 
-.social-f{
-    width: 16px; 
-    height: 16px;
-    text-align: center;
-}
 
 .menu-secondary__navigation{
     list-style: none;
     justify-content: center;
-    padding: 0px 0.5rem;
-    margin: 0px;
     font-size: 14px;
     display: flex;
     align-items: center;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 100px;
-    margin-inline-end:100px;
-    padding-inline-start: 100px;
-    padding-inline-end: 100px;
 }
 
 .elements_list-cinemark{
@@ -97,12 +93,126 @@ html{
     cursor: pointer;
     display: flex;
 }
-
+.elements_list-cinemark:hover{
+    color:rgb(181, 18, 27);
+}
+.elements_list-cinemark__mark{
+    width:11px;
+    height: 16px;
+    white-space: nowrap;
+    align-items: center;
+    border: none;
+    font-size: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+.elements_list-cinemark__mark:hover{
+    color: rgb(181, 18, 27)
+}
+.svg-marketing{
+    width: 16px;
+    height: 16px;
+}
+.marketing__id{
+    align-content: center;
+    width: ;
+    height: ;
+    padding: 6.4px 9.6px;
+    text-align: left;
+}
 .menu-secondary-register{
-    margin-left: auto;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 235px;
 }
 
-.elements-register-cm{
-    font-size: 14px;
+.button{
+    color: white;
+    font-size: 13px;
+    padding: 5px 18px;
+    border-radius: 17px;
+    border: 1px;
+    font-family: inherit;
 }
+
+.button.gray {
+    background-color: rgb(61, 61, 61);
+}
+
+.button.red {
+    background-color: #b5121b
+}
+
+.menu-cinemark__navigation{
+    background-color: white;
+    line-height:21px;
+    padding-bottom: 12px;
+    padding-left:136.188px;
+    padding-right:136.188px;
+    padding-top:12px;
+}
+.menu-cinemark__logo{
+    width: 180px;
+    height: 22,446px;
+}
+.menu-cinemark__cinema{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.menu-cinemark__list{
+    width: 0px 0.75rem;
+    height: 22px;
+    margin: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    color:  rgb(181, 18, 27);
+}
+.menu-cinemark__list:hover{
+    color: rgb(181, 18, 27)
+}
+.location{
+    position: absolute;
+    width: 320,594px;
+    height: 163,984px;
+    opacity: 1;
+    box-shadow: #00000066 1px 1px 4px 1px;
+    background-color: white;
+    top: calc(100% + 14px);
+    color: black;
+}
+.menu-cinemark__town{
+    display: flex;
+    align-items: center;
+    padding: 4px 12.8px;
+}
+.banner-ppal{
+    display: block;
+    line-height: 21px;
+    height: 340.500px;
+    width: 1230px;
+}
+.town-select{
+    height: 59.781px;
+    width: 1089,624px;
+    padding: 0px 136,188px;
+    background-color:#f6f6f6 ;
+}
+.town-select__location{
+    width:39,981;
+    height: 1089,2px;
+    display: block;
+    position: relative;
+    margin: auto;
+
+}
+.main-container-flow {
+    padding: 0 135px;
+}
+
